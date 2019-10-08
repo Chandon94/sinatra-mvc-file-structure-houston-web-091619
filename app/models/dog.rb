@@ -1,6 +1,7 @@
 class Dog 
   
-  # attr_accessor name: breed:, age:
+  attr_reader name:, breed:, age:
+  attr_writer name:, breed:, age:
   
   @@all = []
   
